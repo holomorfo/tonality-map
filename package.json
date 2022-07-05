@@ -1,0 +1,29 @@
+{
+  "name": "tonality-map",
+  "version": "1.0.0",
+  "description": "Mathematical representation of music tonality.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holomorfo/tonality-map.git"
+  },
+  "keywords": [
+    "music",
+    "harmony",
+    "chord",
+    "tonality"
+  ],
+  "author": "Cristian Banuelos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/holomorfo/tonality-map/issues"
+  },
+  "homepage": "https://github.com/holomorfo/tonality-map#readme"
+}
