@@ -1,1 +1,3 @@
-export { libraryInit, closeLibrary } from "./logs";
+export { Chord } from "./Chord";
+export { Tonality } from "./Tonality";
+export { UniversoTonal } from "./UniversoTonal";
