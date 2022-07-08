@@ -123,7 +123,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Cristian Banñuelos** - *Initial work* - [JohnDoe](https://github.com/JohnDoe)
+* **Cristian Banñuelos** - *Initial work*  
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
