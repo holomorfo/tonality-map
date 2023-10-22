@@ -1,6 +1,6 @@
 {
   "name": "tonality-map",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Mathematical representation of music tonality.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
