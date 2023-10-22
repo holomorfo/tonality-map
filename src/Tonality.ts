@@ -8,25 +8,20 @@ export class Tonality {
   defEscAcordes: number[][];
 
   constructor(base: number = 0, kind: string = "M") {
-    //     doMRef = new Tonalidad(0, "M");
     let major = [0, 2, 4, 5, 7, 9, 11];
-    //        float[] menArm = { 0, 2, 3, 5, 7, 8, 11 };
     let minorHarmonic = [0, 2, 3, 5, 7, 8, 10];
 
-    //notasTonalidad = new float[12];
     this.notes = [];
     this.base = base;
     switch (kind) {
       case "M":
         for (let i = 0; i < major.length; i++) {
-          // notasTonalidad[i] = (this.baseEsc + mayor[i]) % 12;
           this.notes.push((this.base + major[i]) % 12);
         }
         break;
 
       case "m":
         for (let i = 0; i < minorHarmonic.length; i++) {
-          //notasTonalidad[i] = (this.baseEsc + menArm[i]) % 12;
           this.notes.push((this.base + minorHarmonic[i]) % 12);
         }
         break;
