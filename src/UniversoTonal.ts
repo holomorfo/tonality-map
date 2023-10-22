@@ -103,7 +103,7 @@ export class UniversoTonal {
 
   calculateTableCSV(chord: Chord) {
     let funcs = this.calculateFunctions(chord);
-    return funcs.reduce((p, e) => p + e[1] + ": " + e[0] + "\n", "");
+    return funcs.reduce((p, e) => p + e[1] + ", " + e[0] + "\n", "");
   }
 
   // calculateFunctionsFirstDegree(chord: Armonia) {
